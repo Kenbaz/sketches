@@ -49,7 +49,7 @@ const sketch = () => {
 
       context.save();
       context.translate(cx, cy);
-      context.rotate(-angle);
+      context.rotate(angle);
 
       context.lineWidth = random.range(5, 20);
 

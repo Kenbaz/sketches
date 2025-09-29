@@ -7,6 +7,10 @@ const settings = {
   animate: true
 };
 
+const r = Math.floor(Math.random() * 256);
+const g = Math.floor(Math.random() * 256);
+const b = Math.floor(Math.random() * 256);
+
 const sketch = ({ width, height }) => {
   const agents = [];
 
@@ -87,8 +91,9 @@ class Agent {
     context.lineWidth = 4;
 
     context.beginPath();
-    context.arc(this.pos.x, this.pos.y, this.radius, 0, Math.PI * 2);
+    context.arc(0, 0, this.radius, 0, Math.PI * 2);
     context.fill();
+    context.strokeStyle = 'white'
     context.stroke();
     context.restore();
   }

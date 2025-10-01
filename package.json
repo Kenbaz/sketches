@@ -14,6 +14,7 @@
     "canvas-sketch": "^0.7.7",
     "canvas-sketch-util": "^1.10.0",
     "dat.gui": "^0.7.9",
+    "riso-colors": "^1.0.1",
     "tweakpane": "^4.0.5"
   }
 }
